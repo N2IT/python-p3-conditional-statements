@@ -31,7 +31,18 @@ def hows_the_weather(temperature):
 
 def fizzbuzz(num):
     # your code here
-    pass
+    # if multiple of 3 return 'Fizz'
+    # if multiple of 5 return 'Buzz'
+    # if multiples of 3 and 5 return 'FizzBuzz'
+    # else return num
+    if num % 3 == 0 and num % 5 == 0:
+        return 'FizzBuzz'
+    elif num % 5 == 0:
+        return 'Buzz'
+    elif num % 3 == 0:
+        return 'Fizz'
+    else:
+        return num
 
 def calculator(operation, num1, num2):
     # your code here
