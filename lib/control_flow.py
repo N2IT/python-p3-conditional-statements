@@ -46,4 +46,16 @@ def fizzbuzz(num):
 
 def calculator(operation, num1, num2):
     # your code here
-    pass
+    # if operation is one of +, -, *, / return value of operation of num1 and num2
+    # else return 'Invalid operation'
+    if operation == '+':
+        return num1 + num2
+    elif operation == '-':
+        return num1 - num2
+    elif operation == '*':
+        return num1 * num2
+    elif operation == '/':
+        return num1 / num2
+    else:
+        print('Invalid operation!')
+        return None
